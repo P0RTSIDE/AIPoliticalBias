@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Node / frontend build
+node_modules/
+political-bias-app/frontend/node_modules/
+political-bias-app/frontend/dist/
+
+# Large local datasets (keep on your machine or use Git LFS — GitHub rejects ~100MB+ files)
+news_bias.csv
+*.zip
+*.7z
+*.tar.gz
+
+# Large / generated ML artifacts (train locally; use Git LFS if you must host weights)
+political-bias-app/artifacts/processed/*
+!political-bias-app/artifacts/processed/.gitkeep
+political-bias-app/artifacts/adapters/*
+!political-bias-app/artifacts/adapters/.gitkeep
+political-bias-app/artifacts/metrics.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+.env.*
+kaggle.json
+.kaggle/
+
+# Editor / local (optional — remove these lines if you want to share team settings)
+.vscode/
+.idea/

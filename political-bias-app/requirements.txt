@@ -1,0 +1,14 @@
+# torch==2.3.0 has no cp313 wheels; use 2.6+ on Python 3.13 or install Python 3.11 for exact pin
+torch>=2.6.0
+transformers>=4.40.0
+peft>=0.10.0
+accelerate>=0.29.0
+fastapi>=0.110.0
+uvicorn>=0.29.0
+pydantic>=2.0.0
+pandas>=2.0.0
+scikit-learn>=1.4.0
+datasets>=2.18.0
+sentencepiece
+protobuf
+pyarrow>=14.0.0
